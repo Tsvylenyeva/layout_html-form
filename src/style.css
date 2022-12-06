@@ -1,1 +1,26 @@
 /* styles go here */
+
+* {
+  margin: 0;
+}
+
+.form-field {
+  display: block;
+  margin: 10px;
+}
+
+fieldset {
+  margin: 20px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.first {
+  margin-top: 0;
+}
+
+button {
+  margin-left: 20px;
+}
