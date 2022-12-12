@@ -5,7 +5,7 @@
   margin: 10px;
 }
 
-fieldset {
+.form-part {
   margin: 20px;
 }
 
@@ -17,6 +17,6 @@ fieldset {
   margin-top: 0;
 }
 
-button {
+.form-button {
   margin-left: 20px;
 }

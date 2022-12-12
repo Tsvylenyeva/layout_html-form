@@ -15,7 +15,7 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
     >
-      <fieldset>
+      <fieldset class="form-part">
         <legend>Personal information</legend>
         <label class="form-field first">
           Surname:
@@ -63,7 +63,7 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="form-part">
         <legend> Registration </legend>
         <label class="form-field first">
           E-mail:
@@ -87,7 +87,7 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="form-part">
         <legend> An interesting fact about you! </legend>
         <div
           class="form-field first"
@@ -141,12 +141,13 @@
         </label>
         <label class="form-field last">
           How do you rate our work?
-          <input type="range"
+          <input
+            type="range"
             name="rateOurWork"
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="form-part">
         <legend> Additional info:</legend>
         <label class="form-field first">
           Comments:
@@ -155,12 +156,12 @@
             rows="4"
             cols="20"
             autocomplete="off"
-          > </textarea>
+          ></textarea>
         </label>
         <label
           class="form-field last"
         >
-            Would you recommend us?
+          Would you recommend us?
           <select
             name="recommendation"
             required
@@ -171,7 +172,7 @@
         </label>
       </fieldset>
       <button
-        class="form-field"
+        class="form-field form-button"
         type="submit"
       >
         Submit
